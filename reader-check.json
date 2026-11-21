@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "one_bit_change_rejected_before_replay": true,
+  "checks": {
+    "integrity": {
+      "revision": "revision_1",
+      "mode": "integrity",
+      "archive_sha256": "f977f06e0cd189bed831aef396f5377d78e43e7b83062c639811cfb3954e8993",
+      "checked_payload_files": 1485,
+      "manuscript_sha256": "d9828b060f874c02c1c217c915499da970725dadd09339967404bb3897570f91",
+      "verified": true
+    },
+    "replay": {
+      "revision": "revision_1",
+      "mode": "replay",
+      "archive_sha256": "f977f06e0cd189bed831aef396f5377d78e43e7b83062c639811cfb3954e8993",
+      "checked_payload_files": 1485,
+      "manuscript_sha256": "d9828b060f874c02c1c217c915499da970725dadd09339967404bb3897570f91",
+      "recalculated": {
+        "episodes": 16,
+        "foreground_requests": 1344,
+        "primary_comparisons": {
+          "aft": {
+            "estimate": 0.01096522999265998,
+            "lower": 0.001994891200250296,
+            "upper": 0.019935568785069663,
+            "denominator": 504
+          },
+          "direct_scale": {
+            "estimate": -0.0019143091068438136,
+            "lower": -0.005605392749175169,
+            "upper": 0.001776774535487542,
+            "denominator": 504
+          }
+        },
+        "dual_advantage": false
+      },
+      "verified": true
+    },
+    "live": {
+      "revision": "revision_1",
+      "mode": "live",
+      "archive_sha256": "f977f06e0cd189bed831aef396f5377d78e43e7b83062c639811cfb3954e8993",
+      "checked_payload_files": 1485,
+      "manuscript_sha256": "d9828b060f874c02c1c217c915499da970725dadd09339967404bb3897570f91",
+      "recalculated": {
+        "blocks": 12,
+        "arms": 36,
+        "offers": {
+          "fifo": 144,
+          "expiry": 144,
+          "forecast": 144
+        },
+        "timely": {
+          "fifo": 9,
+          "expiry": 15,
+          "forecast": 19
+        },
+        "forecast_minus_expiry_per_window": {
+          "mean": 0.3333333333333333,
+          "lower_95": -0.7615870965747562,
+          "upper_95": 1.4282537632414227
+        },
+        "primary_directional_gain_supported": false,
+        "score_sha256": {
+          "background.csv": "0faca33d9175135b6dc9a003fddfff26ae949b8c7f6f38d03f7ae96ddc0f3f33",
+          "blocks.csv": "784f4efeab388fdc7e745b8ec01e72326e6a68c1624c6da7751875f05b7b9e22",
+          "jobs.csv": "9856f6780422c1502ad2475db5ffce2a034b1349892e376a2169d39a2b12d4e4",
+          "pairs.csv": "decd639bb58a721eb45a8609d48530954ac002f6cb74bc508a9378eea815dc6f",
+          "summary.json": "ad17906b9b9820ac5086bb40aa907025575cd6826e4736538d5157002997709b"
+        }
+      },
+      "verified": true
+    }
+  }
+}
