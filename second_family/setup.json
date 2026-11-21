@@ -1,0 +1,74 @@
+{
+  "study": "Qwen method replication, single Apple M5",
+  "model": {
+    "repository": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+    "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+    "file": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+    "bytes": 491400032
+  },
+  "native_eog_ids": [
+    128247,
+    151643,
+    151645,
+    151662,
+    151663,
+    151664
+  ],
+  "metal_layers_offloaded": [
+    "25",
+    "25"
+  ],
+  "context_per_slot": 2048,
+  "server_binary_sha256": "eb3f43150e3ca5743a14d62eae50f512585c1cf7380d6f43dc2cb5a79f3c8be8",
+  "template_sha256": "4e9918361c284a93880606d182d64da6a9fe97cdc1f5c5a78c1c8840444246fc",
+  "assignment_audit": {
+    "all_component_and_episode_assignments_disjoint": true,
+    "assignment_sha256": "e8e3902bbf95ca3907e2e9db242ce6caccbe7c633a0257615221023bba104cf1",
+    "assignments_including_standby": 676,
+    "checked_eligible": 408,
+    "checked_rejected": 8,
+    "protocol_sha256": "c3c300d2f41e281a7f3c2ac3c17f36e40f96f1a5e5159619268db7e9ab043981",
+    "rendered_prompt_tokens_max": 1020,
+    "rendered_prompt_tokens_min": 35,
+    "test_and_source_requests_by_role": {
+      "adaptation": 140,
+      "calibration": 24,
+      "pilot_test": 448,
+      "train": 64
+    },
+    "training_cap_counts": {
+      "128": 15,
+      "256": 10,
+      "512": 15,
+      "1024": 24
+    },
+    "unique_families": 408
+  },
+  "protocol_sha256": "c3c300d2f41e281a7f3c2ac3c17f36e40f96f1a5e5159619268db7e9ab043981",
+  "analysis_code_lock_sha256": "9b46e4977adc2c7daa44e94ea42139e2fd4e1fefddeca4b621ade0eea6a73077",
+  "private_technical_receipt_sha256": "f0c3d1dc8f031955f440dd38d8d0162fe25f82b215272709f987568c58ed4454",
+  "analysis_input_validation_amendment": {
+    "prior_lock_sha256": "9b46e4977adc2c7daa44e94ea42139e2fd4e1fefddeca4b621ade0eea6a73077",
+    "amended_lock_sha256": "0ac440310f6bab5593923f41734745a4c0a4443fa01b72d0fd9aff88f61aa1fb",
+    "reason": "The registered training view omits per-token slot and clock identifiers. The check was adapted to that view before any fitted state or target scores. An independent source-native audit matched every visible masked training token.",
+    "visible_tokens_independently_checked": 19484,
+    "native_training_tokens_checked": 27327,
+    "private_audit_sha256": "f1df27febd1a9801fa055642a04ee21c55781eaad87ea4525d9cd41940b781e7"
+  },
+  "fitted_source_sha256": "f254bca7e02a9f6ed34d63ff42f96421a8701fec952d74c197c61126c34f1957",
+  "training_and_calibration": {
+    "train": {
+      "assigned": 64,
+      "active": 61,
+      "natural_full": 59,
+      "horizon": 5
+    },
+    "calibration": {
+      "assigned": 24,
+      "active": 23,
+      "natural_full": 23,
+      "horizon": 1
+    }
+  }
+}
