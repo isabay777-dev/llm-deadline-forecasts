@@ -1,8 +1,18 @@
-# Replaying the AI2 LLM deadline study
+# AI2 experiment artifact
 
-After a response has produced 32 tokens, how often does it reach a natural end within a short deadline? This repository checks the archived observations behind two results in revision 1 of the paper. The first result compares forecast accuracy under contention on an Apple M5. The second measures how many responses reach a client within one second under three live server policies.
+This repository links the processed data, the calculation code and the retained measurement archives for *Will this language-model response finish on time?* It covers one SmolLM2-135M-Instruct deployment on an Apple M5. The revision 2 data release candidate is `AI2_evidence_v2.zip` (SHA-256 `c6137bc5e0186ff3fd33c2aa215a7e64599d2dd82968f1d94aaa4872e43e3067`). Place the extracted data in a separate directory and supply that directory to the reader.
 
-## Run the reader
+## Recompute the revision 2 claims
+
+```sh
+python3 replay.py ../evidence
+```
+
+The code uses Python's standard library for replay. The data include all 512 assigned forecasts in the loaded five-history condition (504 active at step 32), 432 client outcomes and the paired sums of prediction error for the training sensitivity analysis. The masked AFT-minus-hazard gap was +0.01097. Allowing both predictors to use the recorded source histories through step 1,024 gave +0.00276. The paired change was −0.00820 (95% episode interval −0.01053 to −0.00588). The live comparison gave +1.43 timely completions per minute for forecast-guided cancellation versus cancellation at expiry (95% interval −3.26 to +6.12).
+
+The data ZIP contains `SHA256SUMS`; the same file is tracked here as `evidence-SHA256SUMS`. Check both against one another. The README in the data ZIP gives worked examples from the two clocks. Its separate numerical refit bundle reproduces training coefficients and calibration from derived features using the listed scientific Python dependencies. The complete native audit below requires the original local author archive. The [live protocol](LIVE_PROTOCOL.md) is a byte-for-byte copy from the frozen corrected collection.
+
+## Audit the original captures (revision 1)
 
 Use a local copy of the revision 1 author package. The native logs, model files and original PDF are inside that ZIP. The compact Git repository contains the reader, version-specific checksums and results of running the reader. To use the supplied local project layout, open a terminal in this repository and run the following commands. For a separately supplied ZIP, set `ARCHIVE` to its location.
 
