@@ -1,0 +1,222 @@
+{
+  "analysis_lock_sha256": "214922c91d5c9cb1d588a94bd9c10d5507356c17cf67a7aeea74456b938738d3",
+  "assigned_idle_test_executions_per_model": 384,
+  "assigned_loaded_test_executions_per_model": 384,
+  "assigned_pairs_per_model": 384,
+  "assignments_audit_sha256": "888854cb29fd2e5d73f971195bea373d25964faecc04a9469be0cf320876a1a6",
+  "confirmation_episodes": 24,
+  "confirmation_history_executions_per_model": 120,
+  "episode_plan_sha256": {
+    "confirmation-000": "e2647dcbc7769b05f88fd141f85a9f2d6682f001f9bdd4bec8806700196621e4",
+    "confirmation-001": "171648e8dcee5e6b3416b694fd435d0f1b95a8fd7cec6b734c5a4c5d31651581",
+    "confirmation-002": "1d617e1bdd4d094ba85a43e0fef008963844eba80d82a99e1ee0161596a2ff3b",
+    "confirmation-003": "39aab73d58da540214a09fc06ef38cb792cc572793c8f8e45c86d39813346101",
+    "confirmation-004": "00175357505eecf4bfaced191e42df459e7d9ad8a61423deeec3e9c8140eb453",
+    "confirmation-005": "3f2472182cbafad031fd6338b06957286828a947923c2b15012ff4b428a3355b",
+    "confirmation-006": "e1daf26e6f5e52db5f97af49d3a83335e0c159cfe60580ca0a3ec5e2520ebde3",
+    "confirmation-007": "3c0509b02673b7f4780a53380b8a525aa78817a52152b5d2bfd88346e06d0c04",
+    "confirmation-008": "88f76141edef2a3c8ea15eb9280cd4e953b30c272833d38b5366f2366254ce99",
+    "confirmation-009": "ba759a41568d59f8eb027f34b7c110ac4d04d4cfe03500273720573f552c6793",
+    "confirmation-010": "853c1aa6784a9806553af731c9d2eebdf08faa70012f7d1d2567781a951aeaf9",
+    "confirmation-011": "0c56d94abc0a05e4b7708edc0c3525dbb6914451a83145be0d78869456801ec8",
+    "confirmation-012": "a63663f4c1946330a1a4990d033e6be3270b61497f3b8052460a80b65e48c097",
+    "confirmation-013": "452588f5340086d325517f8988a16dfd3d0412ba00fdb2ee00a3ad75ad0cb3e4",
+    "confirmation-014": "4b771db1ef753d5cf8872dce4a21c45a88987b539ce863d35ee0bd522d0929db",
+    "confirmation-015": "0f5e9c72d70eaef3c62b9f40644b85d48097f1c9ff1e05b47a4504676bf384af",
+    "confirmation-016": "6e984b1553adeb8b89b395fd679053393e7277a29f38b8c19a9306b0c825f5c0",
+    "confirmation-017": "eb0d447f87c570664524c8b06ec13160eb64ba496a9936182de91c6e1b5de33b",
+    "confirmation-018": "5c9ccd301b4139a5f044606d9f0981bdf332dd57f501073e34f740d00c34190e",
+    "confirmation-019": "e99ff7774d5e548123f1f80aa32df750b637284845573f95047cc81633f00618",
+    "confirmation-020": "3ec3291d85671c138e7c61c60348b18a8b5efe376fc4a6f76da75d2c1af05d56",
+    "confirmation-021": "2a3efcf7c31c00da1839d2cf686d9348ffffc14bc1a9ac64457370f8e0bc4614",
+    "confirmation-022": "402380463e0f5ac9c4640e1824d640e1f27b8255b56820576266daa41abe5fc5",
+    "confirmation-023": "3f9a872bcf43dec57703215ce862f90c51864aa023b445722e9210d24185fc01"
+  },
+  "model_order_target_per_episode": {
+    "confirmation-000": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-001": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-002": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-003": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-004": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-005": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-006": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-007": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-008": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-009": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-010": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-011": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-012": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-013": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-014": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-015": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-016": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-017": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-018": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-019": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-020": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-021": [
+      "ministral",
+      "olmo"
+    ],
+    "confirmation-022": [
+      "olmo",
+      "ministral"
+    ],
+    "confirmation-023": [
+      "ministral",
+      "olmo"
+    ]
+  },
+  "model_records": {
+    "ministral": {
+      "calibration_deadlines_seconds": [
+        27.5667310525,
+        30.6041141455,
+        36.81709784375
+      ],
+      "curve": {
+        "12": 0.005305644325767589,
+        "13": 0.005046146899785632,
+        "14": 0.004821425842900491,
+        "15": 0.0046243438305546315,
+        "16": 0.004449658762685212,
+        "17": 0.00429342263218035,
+        "18": 0.004152597934036604,
+        "19": 0.004024804391479222,
+        "20": 0.003908146751919082,
+        "21": 0.0038010946856344343,
+        "22": 0.0037023971341272944,
+        "23": 0.003611020011562895,
+        "24": 0.003526100090856859
+      },
+      "eligible_counts": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "expected_halfwidth": 0.003526100090856859,
+      "paired_counts": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "pilot_precision_sha256": "b7eb5abb245cb227c62d65727b4cfb571fdea873270a2ef3a1697e4db0dd5b74",
+      "planned_precision_attained": true,
+      "sd_episode_influence": 0.008350483870388887,
+      "source_fit_seal_sha256": "d03ed5e40b6a5a846692a144e10bea11f67e92175d9afc9be6f98d6cd759d85d",
+      "source_fit_sha256": "4c8402f411b1c5b1bdcfe8de26da7c8ad79dec0a2fe1c327daa12f5ef59c3e7a",
+      "support_complete": true,
+      "usable_variation": true
+    },
+    "olmo": {
+      "calibration_deadlines_seconds": [
+        5.84497421875,
+        9.1484202705,
+        12.6227339895
+      ],
+      "curve": {
+        "12": 0.011386497204211192,
+        "13": 0.010829587141263074,
+        "14": 0.010347310997435837,
+        "15": 0.009924351287966099,
+        "16": 0.009549457888638048,
+        "17": 0.009214157941268692,
+        "18": 0.00891193262550261,
+        "19": 0.008637673605164799,
+        "20": 0.008387313459413938,
+        "21": 0.008157567932082756,
+        "22": 0.0079457521138153,
+        "23": 0.007749646742493058,
+        "24": 0.007567399237698016
+      },
+      "eligible_counts": [
+        16,
+        15,
+        16,
+        15
+      ],
+      "expected_halfwidth": 0.007567399237698016,
+      "paired_counts": [
+        16,
+        15,
+        16,
+        15
+      ],
+      "pilot_precision_sha256": "5fb6331ec8c1e1db6358888b77a1497ccc898674b932f85e0a6e57b94704296e",
+      "planned_precision_attained": false,
+      "sd_episode_influence": 0.01792105829299775,
+      "source_fit_seal_sha256": "e50463c477f26753e12e055211ff6f924128d28d3364293fe7e66aa4f46a4889",
+      "source_fit_sha256": "33b534bd8f56e79102f094aae7f78853b8766fcfa239c54ea238442d62fd48fc",
+      "support_complete": true,
+      "usable_variation": true
+    }
+  },
+  "planned_precision_attained_for_both": false,
+  "protocol_sha256": "13bbbcbd1c46f782efe11e4c55b0c63d6445c365ae72d76d49c2dcd79288cb92",
+  "target_halfwidth": 0.0075
+}
