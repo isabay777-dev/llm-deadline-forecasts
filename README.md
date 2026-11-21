@@ -1,8 +1,21 @@
 # LLM deadline forecasts under decode contention
 
-Can a server tell, after 32 generated tokens, whether a response will finish before a deadline? This repository accompanies *Will this language-model response finish on time?* It contains the analysis code, the measurement protocol and a release with the observed outcomes for a two-slot llama.cpp deployment on an Apple M5.
+Can a server tell, after 32 generated tokens, whether a response will finish before a deadline? This repository accompanies *Will this language-model response finish on time?* It contains the analysis code, the measurement protocol and a release with the observed outcomes for two model families served by a two-slot llama.cpp deployment on an Apple M5.
 
-## Reproduce the results
+## Qwen2.5-0.5B replication (v0.3.0)
+
+The [Qwen evidence release](https://github.com/isabay777-dev/llm-deadline-forecasts/releases/tag/v0.3.0) adds a prospectively registered replication on a second family. On the same M5, the two forecast estimators were refitted using 64 new training and 24 calibration generations. Four pilot episodes determined the confirmation sample size. The 24 confirmation episodes used 384 fresh evaluation executions, with both methods producing predictions for all 375 that were still active at token 32.
+
+| Held-out comparison | Active executions | Direct Brier | Hazard Brier | Direct minus hazard (95% episode interval) |
+| --- | ---: | ---: | ---: | --- |
+| SmolLM2-135M | 504 | 0.17145 | 0.17336 | −0.00191 [−0.00561, +0.00178] |
+| Qwen2.5-0.5B | 375 | 0.14741 | 0.13460 | +0.01281 [−0.00832, +0.03394] |
+
+The practical equivalence margin was ±0.01. Only the SmolLM2 interval fits entirely inside that margin. On Qwen the estimate favors hazard, while the uncertainty interval includes zero and values above the margin. Each row compares the methods within a single study. Prompts, calibrated time limits and model size differ across studies. The live queue experiment in v0.2.0 uses SmolLM2.
+
+To replay the Qwen scores, extract `AI2_Qwen_replication_v0.3.0.zip` into an empty directory and run `python3 replay.py` there. The archive includes the numerical refit, separate pilot and confirmation tables, and the measurement and sampling code. SHA-256 `d7313ce026912f2f52fcf1ce26c21ab747cdd32481618a17503ae49ecdf25239`. [Registered protocol](second_family/PROTOCOL.md) · [Sample-size lock](second_family/confirmation_lock.json) · [Qwen outcome reader](second_family/replay.py)
+
+## Reproduce the SmolLM2 results (v0.2.0)
 
 From the root of a clone, download and extract the [versioned evidence ZIP](https://github.com/isabay777-dev/llm-deadline-forecasts/releases/download/v0.2.0/AI2_evidence_v2.zip). The following commands run on macOS or Linux with Python 3, curl and unzip:
 
