@@ -1,6 +1,19 @@
 # LLM deadline forecasts under decode contention
 
-Can a server tell, after 32 generated tokens, whether a response will finish before a deadline? This repository accompanies *Will this language-model response finish on time?* It contains the analysis code, the measurement protocol and a release with the observed outcomes for two model families served by a two-slot llama.cpp deployment on an Apple M5.
+Can a server tell, after 32 generated tokens, whether a response will finish before a deadline? This repository accompanies *Will this language-model response finish on time?* It contains the analysis code, the measurement protocol and versioned releases with the observed outcomes for four model checkpoints served by a two-slot llama.cpp deployment on an Apple M5.
+
+## Paired OLMo and Ministral experiments (v0.4.0)
+
+The [four-family evidence release](https://github.com/isabay777-dev/llm-deadline-forecasts/releases/tag/v0.4.0) adds 24 confirmation episodes per new model. Each checkpoint served 384 matched prompt and seed pairs with the competing slot idle and busy. The [confirmation roster and sample size](paired_families/confirmation_lock.json) were fixed before the first confirmation request. The numerical archive includes all four request-level comparisons and the two new source refits.
+
+| Under contention | Active / assigned | Direct Brier | Hazard Brier | Direct minus hazard (95% episode interval) |
+| --- | ---: | ---: | ---: | ---: |
+| OLMo-2-0425-1B-Instruct | 380 / 384 | 0.2134 | 0.1483 | +0.0651 [+0.0464, +0.0839] |
+| Ministral-3-3B-Instruct-2512 | 381 / 384 | 0.2814 | 0.2994 | −0.0180 [−0.0247, −0.0113] |
+
+On Ministral, a supplementary forecast using the calibration-set completion frequency and recent decoding speed scored 0.2561. The paired elapsed time to natural end or the 1,024-token horizon increased by 0.548 s on OLMo and 1.982 s on Ministral. These measurements condition on one source fit per checkpoint and one two-slot Apple M5.
+
+Unzip the release and run `python3 -B -S replay.py` for the standard-library numerical comparison. The archive README gives the command and dependencies for the two source refits. The [verification receipt](paired_families/v0.4.0_verification.json) and [SHA-256](paired_families/v0.4.0-SHA256SUMS) accompany this release.
 
 ## Qwen2.5-0.5B replication (v0.3.0)
 

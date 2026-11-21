@@ -1,0 +1,203 @@
+{
+  "byte_size": 38121120,
+  "calibration_table_sha256": "9df31ad9e324b81c6d282ded46de0512ac9a27f866ad374b5ce4610635eeeeb3",
+  "capture_help": [
+    "usage: gates.py [-h] {olmo,ministral} {technical,preflight}",
+    "usage: run_study.py [-h] {source,development,confirmation,source-development}",
+    "usage: run_study_v2.py [-h]",
+    "usage: exposure.py [-h] {source,development,confirmation,all}"
+  ],
+  "capture_manifest": "Verified 43 archive members",
+  "checked_files": 297,
+  "chronology": {
+    "all": {
+      "adjacent_boundaries": 57,
+      "minimum_bounded_gap_s": 0.04063558398047462
+    },
+    "confirmation": {
+      "adjacent_boundaries": 47,
+      "minimum_bounded_gap_s": 0.04063558398047462
+    },
+    "development": {
+      "adjacent_boundaries": 7,
+      "minimum_bounded_gap_s": 0.32620612398022786
+    }
+  },
+  "entries": 298,
+  "expanded_files_bytes": 41714959,
+  "loaded_denominators": {
+    "ministral": [
+      381,
+      384
+    ],
+    "olmo": [
+      380,
+      384
+    ],
+    "qwen": [
+      375,
+      384
+    ],
+    "smollm2": [
+      504,
+      512
+    ]
+  },
+  "numerical_refits": {
+    "ministral": {
+      "evaluation": [
+        {
+          "checked_probabilities": 768,
+          "episodes": 4,
+          "maximum_absolute_error": 0.0,
+          "offers": 128,
+          "paired_timing": {
+            "df": 3,
+            "eligible": 64,
+            "estimate": 4.697083521484375,
+            "half_width_95": 3.575419316441899,
+            "lower_95": 1.1216642050424759,
+            "sd_episode_influence": 2.2469628540190154,
+            "upper_95": 8.272502837926274
+          },
+          "phase": "development",
+          "primary": {
+            "df": 3,
+            "eligible": 64,
+            "estimate": -0.006752488063601679,
+            "half_width_95": 0.013287483270327471,
+            "interpretation": "inconclusive_at_margin",
+            "lower_95": -0.020039971333929152,
+            "sd_episode_influence": 0.008350483870388887,
+            "upper_95": 0.006534995206725793
+          },
+          "summary_sha256": "47d4c4a55f64ff787f2a8f302f2253a4c3310f4a6fa6f8969bae6f80c4f015b4"
+        },
+        {
+          "checked_probabilities": 4572,
+          "episodes": 24,
+          "maximum_absolute_error": 0.0,
+          "offers": 768,
+          "paired_timing": {
+            "df": 23,
+            "eligible": 381,
+            "estimate": 1.9819481692572178,
+            "half_width_95": 1.022695480836024,
+            "lower_95": 0.9592526884211938,
+            "sd_episode_influence": 2.4219397909846525,
+            "upper_95": 3.004643650093242
+          },
+          "phase": "confirmation",
+          "primary": {
+            "df": 23,
+            "eligible": 381,
+            "estimate": -0.018001514716088508,
+            "half_width_95": 0.006696435080562977,
+            "interpretation": "direct_better_beyond_margin",
+            "lower_95": -0.024697949796651485,
+            "sd_episode_influence": 0.015858447488301158,
+            "upper_95": -0.01130507963552553
+          },
+          "summary_sha256": "994e4f88a098ef66ec50f51945d96475c3df1319d29f10e0baf8c9f6fcac1b93"
+        }
+      ],
+      "matches_reference_bits": true,
+      "numeric_fit_sha256": "fa20a3dd64c3ae1262b2235f98cee6eb3e4bdd80e746b2c0ed5dd1dc89086c86",
+      "reference_numeric_fit_sha256": "fa20a3dd64c3ae1262b2235f98cee6eb3e4bdd80e746b2c0ed5dd1dc89086c86"
+    },
+    "olmo": {
+      "evaluation": [
+        {
+          "checked_probabilities": 744,
+          "episodes": 4,
+          "maximum_absolute_error": 0.0,
+          "offers": 128,
+          "paired_timing": {
+            "df": 3,
+            "eligible": 62,
+            "estimate": 2.3359661840967743,
+            "half_width_95": 1.3236738683923552,
+            "lower_95": 1.012292315704419,
+            "sd_episode_influence": 0.8318593568692572,
+            "upper_95": 3.6596400524891295
+          },
+          "phase": "development",
+          "primary": {
+            "df": 3,
+            "eligible": 62,
+            "estimate": -0.00888560234048292,
+            "half_width_95": 0.028516402875667295,
+            "interpretation": "inconclusive_at_margin",
+            "lower_95": -0.03740200521615022,
+            "sd_episode_influence": 0.01792105829299775,
+            "upper_95": 0.019630800535184373
+          },
+          "summary_sha256": "6edf1d1386a81b3dd84bc2a2fce6355af7d084a6bfb8671ff98398d1692333fc"
+        },
+        {
+          "checked_probabilities": 4560,
+          "episodes": 24,
+          "maximum_absolute_error": 0.0,
+          "offers": 768,
+          "paired_timing": {
+            "df": 23,
+            "eligible": 380,
+            "estimate": 0.5479908240052631,
+            "half_width_95": 0.23455374906699442,
+            "lower_95": 0.31343707493826867,
+            "sd_episode_influence": 0.5554684347735634,
+            "upper_95": 0.7825445730722576
+          },
+          "phase": "confirmation",
+          "primary": {
+            "df": 23,
+            "eligible": 380,
+            "estimate": 0.06514469077707437,
+            "half_width_95": 0.018775933119291523,
+            "interpretation": "hazard_better_beyond_margin",
+            "lower_95": 0.046368757657782846,
+            "sd_episode_influence": 0.044465024424772945,
+            "upper_95": 0.0839206238963659
+          },
+          "summary_sha256": "298efc7dbbb7faa12004b367226a339d93b41fa9058a64b4c1cd6608d73fb01b"
+        }
+      ],
+      "matches_reference_bits": true,
+      "numeric_fit_sha256": "452be3ad45da2a1a530a4e1c5f5cf019be2af809997570c048211092f29b7b8f",
+      "reference_numeric_fit_sha256": "452be3ad45da2a1a530a4e1c5f5cf019be2af809997570c048211092f29b7b8f"
+    }
+  },
+  "paired_denominators": {
+    "ministral": {
+      "assigned": 384,
+      "both_eligible": 381,
+      "contention_only": 0,
+      "idle_only": 0,
+      "neither_eligible": 3
+    },
+    "olmo": {
+      "assigned": 384,
+      "both_eligible": 380,
+      "contention_only": 0,
+      "idle_only": 0,
+      "neither_eligible": 4
+    }
+  },
+  "python": "3.9.6",
+  "replica_preparation": {
+    "analysis_code_matches_lock": true,
+    "candidate_ledger_verified": true,
+    "candidate_rows": 3958,
+    "expected_plans_verified": 29
+  },
+  "roster": {
+    "dual_tokenizer_candidates": 600,
+    "episodes": 29,
+    "groups": 408,
+    "request_rows": 1124,
+    "verified_source_shard": true
+  },
+  "status": "passed",
+  "tampered_csv_rejected_before_output": true,
+  "zip_sha256": "f9b67d08e2f0eac5e78efc61d58b0c9413b63a5127a7ccf8471f357739d86cab"
+}

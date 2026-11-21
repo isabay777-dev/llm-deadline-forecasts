@@ -1,0 +1,202 @@
+{
+  "smollm2": {
+    "name": "SmolLM2-135M",
+    "episodes": 16,
+    "assigned": 512,
+    "eligible": 504,
+    "matched": 504,
+    "deadlines_seconds": [
+      0.35354621875000003,
+      0.6949896875,
+      1.5224348125
+    ],
+    "observed_events": [
+      57,
+      119,
+      292
+    ],
+    "observed_events_on_common": [
+      57,
+      119,
+      292
+    ],
+    "direct_common_brier": 0.17144875742541182,
+    "hazard_common_brier": 0.17336306653225564,
+    "common_delta_interval": [
+      -0.0019143091068438147,
+      -0.00560539274917439,
+      0.0017767745354867607
+    ],
+    "full_support": true,
+    "complete_cohort_delta_interval": [
+      -0.0019143091068438147,
+      -0.00560539274917439,
+      0.0017767745354867607
+    ],
+    "probabilities_over_10pp_apart": [
+      74,
+      92,
+      170
+    ],
+    "mean_direct_on_common": [
+      0.176786603995147,
+      0.2354129183979302,
+      0.6335323056389468
+    ],
+    "mean_hazard_on_common": [
+      0.14968380064656323,
+      0.22548715351872478,
+      0.5903579550825402
+    ]
+  },
+  "qwen": {
+    "name": "Qwen2.5-0.5B",
+    "episodes": 24,
+    "assigned": 384,
+    "eligible": 375,
+    "matched": 375,
+    "deadlines_seconds": [
+      3.8024045205,
+      6.16357,
+      7.9872238535
+    ],
+    "observed_events": [
+      303,
+      327,
+      327
+    ],
+    "observed_events_on_common": [
+      303,
+      327,
+      327
+    ],
+    "direct_common_brier": 0.14740727663877745,
+    "hazard_common_brier": 0.13459793238654255,
+    "common_delta_interval": [
+      0.012809344252234902,
+      -0.008316477149464535,
+      0.03393516565393434
+    ],
+    "full_support": true,
+    "complete_cohort_delta_interval": [
+      0.012809344252234902,
+      -0.008316477149464535,
+      0.03393516565393434
+    ],
+    "probabilities_over_10pp_apart": [
+      375,
+      375,
+      375
+    ],
+    "mean_direct_on_common": [
+      0.6174369892241274,
+      0.7251888846750977,
+      0.7796913151722327
+    ],
+    "mean_hazard_on_common": [
+      0.9064064992865403,
+      0.952086962203953,
+      0.9520871500186173
+    ]
+  },
+  "olmo": {
+    "name": "OLMo 2 1B",
+    "episodes": 24,
+    "assigned": 384,
+    "eligible": 380,
+    "matched": 380,
+    "deadlines_seconds": [
+      5.84497421875,
+      9.1484202705,
+      12.6227339895
+    ],
+    "observed_events": [
+      231,
+      339,
+      350
+    ],
+    "observed_events_on_common": [
+      231,
+      339,
+      350
+    ],
+    "direct_common_brier": 0.21342203605849952,
+    "hazard_common_brier": 0.14827734528142517,
+    "common_delta_interval": [
+      0.06514469077707437,
+      0.046368757657782846,
+      0.0839206238963659
+    ],
+    "full_support": true,
+    "complete_cohort_delta_interval": [
+      0.06514469077707437,
+      0.046368757657782846,
+      0.0839206238963659
+    ],
+    "probabilities_over_10pp_apart": [
+      334,
+      369,
+      204
+    ],
+    "mean_direct_on_common": [
+      0.2270925791256368,
+      0.614416981077911,
+      0.7471959491647672
+    ],
+    "mean_hazard_on_common": [
+      0.48473953509729234,
+      0.7966240181149815,
+      0.8309065268302346
+    ]
+  },
+  "ministral": {
+    "name": "Ministral 3 3B",
+    "episodes": 24,
+    "assigned": 384,
+    "eligible": 381,
+    "matched": 381,
+    "deadlines_seconds": [
+      27.5667310525,
+      30.6041141455,
+      36.81709784375
+    ],
+    "observed_events": [
+      151,
+      153,
+      154
+    ],
+    "observed_events_on_common": [
+      151,
+      153,
+      154
+    ],
+    "direct_common_brier": 0.28139453739978254,
+    "hazard_common_brier": 0.299396052115871,
+    "common_delta_interval": [
+      -0.018001514716088508,
+      -0.024697949796651485,
+      -0.01130507963552553
+    ],
+    "full_support": true,
+    "complete_cohort_delta_interval": [
+      -0.018001514716088508,
+      -0.024697949796651485,
+      -0.01130507963552553
+    ],
+    "probabilities_over_10pp_apart": [
+      0,
+      0,
+      3
+    ],
+    "mean_direct_on_common": [
+      0.19150285201402656,
+      0.1933509186444424,
+      0.19923129765926537
+    ],
+    "mean_hazard_on_common": [
+      0.15031191161163926,
+      0.15279147495553114,
+      0.15671305806139169
+    ]
+  }
+}
