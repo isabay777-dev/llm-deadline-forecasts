@@ -1,0 +1,16 @@
+{
+  "olmo": {
+    "repository": "allenai/OLMo-2-0425-1B-Instruct-GGUF",
+    "revision": "62f8c199538474c3e33ed5d7e0580abd66686a27",
+    "filename": "OLMo-2-0425-1B-Instruct-Q4_K_M.gguf",
+    "sha256": "abd8187934a438fbf7cfff0a1de5b9d2793ce913f158794df1951dcba6c93cc6",
+    "bytes": 935515296
+  },
+  "ministral": {
+    "repository": "mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+    "revision": "eb599d408350ea2bb60452cb86be7c7b2fc28227",
+    "filename": "Ministral-3-3B-Instruct-2512-Q4_K_M.gguf",
+    "sha256": "9ed150d4367e68df0ac8e1540f6ddc65b42d0ee26378329d1ecbca60f93fc5f8",
+    "bytes": 2147023008
+  }
+}
