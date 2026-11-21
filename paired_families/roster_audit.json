@@ -1,0 +1,23 @@
+{
+  "assignments_audit_sha256": "888854cb29fd2e5d73f971195bea373d25964faecc04a9469be0cf320876a1a6",
+  "episodes_checked_including_standby": 28,
+  "first_regime_by_seed": {
+    "idle,17": 4,
+    "idle,29": 4,
+    "loaded,17": 4,
+    "loaded,29": 4
+  },
+  "groups": 408,
+  "paired_protocol_verified": true,
+  "protocol_sha256": "13bbbcbd1c46f782efe11e4c55b0c63d6445c365ae72d76d49c2dcd79288cb92",
+  "shared_source_roles_and_disjoint_target_groups": true,
+  "single_model_eligible_counts": {
+    "ministral": 539,
+    "olmo": 591
+  },
+  "tokenizer_eligibility_receipt_sha256": {
+    "ministral": "749739ebc73e7e13efbef2b397faf4d1000b0e01bb036db64bb5b2a0c1a5f027",
+    "olmo": "a7cc5d5650cddd3b132f1812cf821849160304c0cfa9753d10c5fc08916a426b"
+  },
+  "unique_requests_per_model_including_source_and_standby": 1124
+}

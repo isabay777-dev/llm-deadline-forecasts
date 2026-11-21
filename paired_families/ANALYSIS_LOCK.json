@@ -1,0 +1,28 @@
+{
+  "files": {
+    "analyze.py": "8a724ac04d65fbcded0bb8ad407f9f987542f8578e86d1844749262a1d0f9dbc",
+    "follow_capture.py": "458c0c803ee01fc5b8a0b6966c15ff2bb3d8a4f9124356d9555af32201620989",
+    "metrics.py": "eff95f9b9c4102c4e827917b601dca230de571844d1e08c3a191824c8298bfda",
+    "package_numeric.py": "620d0171416cf836a76b3898a3c92cb81407e51be08e20809a53e0819b0249e4",
+    "refit_numeric.py": "b0b8ad94091e40ad92bbf694c72b5708fa63ce68ec4d4fd6cd66c247bb411ac9",
+    "regression.py": "e58d2e334ff13b15b86155a9f44e63c25028e8904b74b85ab802752c8db035e2",
+    "vendor_sha256.json": "20ec2fbb51780e9a6300a6d595bf2a118e356c3878f445e3f2c50520f5cbef6e"
+  },
+  "model_manifest_sha256": "17b67b18b110aab350855e5db4c47d4588ad9c5b0deeadb063b022e5c792d61d",
+  "prior_analysis_sha256": "24c8222f6ad81b17ae860538134418317b660dd6be01f3eae239e7b1a4d86e28",
+  "protocol_sha256": "13bbbcbd1c46f782efe11e4c55b0c63d6445c365ae72d76d49c2dcd79288cb92",
+  "regression": {
+    "method": {
+      "max_abs_difference": 0,
+      "probabilities_matched": 96,
+      "raw_journal_rejected": true,
+      "source": "previous frozen Qwen development-000 plus fixture-only dummy regime partners",
+      "unexpected_prefix_field_rejected": true
+    },
+    "metrics": {
+      "known_cluster_mean_and_sd": true,
+      "partial_pair_and_unsupported_independent": true
+    }
+  },
+  "specification": "Source-specific fitting; grouped folds, three source calibration quartiles, five loaded histories, loaded Brier primary, paired native-time secondary and both phase indexes before outcomes."
+}

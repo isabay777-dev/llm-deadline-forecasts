@@ -1,0 +1,11 @@
+{
+  "design_inputs_sha256": {
+    "design.py": "cf559530674c2a05e0c56cac9825a1537ca4653eadaa42024b60215f26a3a6db",
+    "english.swift": "4fc10bc8cc21b0c3c26a699d6aecd6f971eaea1252ca98bf03e08ac3cc1e3319",
+    "grouping.py": "35d4213ad501a8edc96a090b6f91959426c324d7727487782849b08950aa3bcb",
+    "pool.py": "cb781cc401cc4c8a75bd6d58e70936f73466276d2ba31dfb0b693b702a168574",
+    "pool_audit.json": "13c8378703c66e362a4f005a0a9de2a31c7fd50eb17e2b7696bd253bcb08d0e1"
+  },
+  "models_lock_sha256": "17b67b18b110aab350855e5db4c47d4588ad9c5b0deeadb063b022e5c792d61d",
+  "protocol_sha256": "13bbbcbd1c46f782efe11e4c55b0c63d6445c365ae72d76d49c2dcd79288cb92"
+}

@@ -1,0 +1,17 @@
+{
+  "candidate_sha256": "23bab01ad8cb6e23bf1cd6a6a4296ecc7d53430323888e3b990f36ab254c4b08",
+  "english_groups": 3958,
+  "excluded_prior_rows": 8000,
+  "frame_rows": 12000,
+  "fresh_groups_before_language": 3963,
+  "joint_group_count": 11936,
+  "language_ledger_sha256": "ebd8148e429be8f108d949234c01587d8a35a70078eec7b8e3b5e7eab6ef6f54",
+  "language_rule": "Apple NLLanguageRecognizer dominantLanguage == en",
+  "model_tokenizer_scan_count": 600,
+  "old_original_audit_sha256": "78435fa01d057759114f44c20aaa9b62b096996c5b103b9436815791eb1a7f4f",
+  "old_qwen_assignment_count": 408,
+  "prior_original_ids_from_audit": 1392,
+  "prior_qwen_plan_count": 29,
+  "salt": "ai2-m5-four-families-paired-20261121-v1",
+  "shard_sha256": "afa8fa7426081b2a0e732fb50dbb5cd402a28ad5f0dbe66c0d996d63e7220727"
+}

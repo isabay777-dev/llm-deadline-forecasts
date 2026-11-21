@@ -1,0 +1,62 @@
+{
+  "eligible_families": 408,
+  "episode_plan_sha256": {
+    "confirmation-000": "e2647dcbc7769b05f88fd141f85a9f2d6682f001f9bdd4bec8806700196621e4",
+    "confirmation-001": "171648e8dcee5e6b3416b694fd435d0f1b95a8fd7cec6b734c5a4c5d31651581",
+    "confirmation-002": "1d617e1bdd4d094ba85a43e0fef008963844eba80d82a99e1ee0161596a2ff3b",
+    "confirmation-003": "39aab73d58da540214a09fc06ef38cb792cc572793c8f8e45c86d39813346101",
+    "confirmation-004": "00175357505eecf4bfaced191e42df459e7d9ad8a61423deeec3e9c8140eb453",
+    "confirmation-005": "3f2472182cbafad031fd6338b06957286828a947923c2b15012ff4b428a3355b",
+    "confirmation-006": "e1daf26e6f5e52db5f97af49d3a83335e0c159cfe60580ca0a3ec5e2520ebde3",
+    "confirmation-007": "3c0509b02673b7f4780a53380b8a525aa78817a52152b5d2bfd88346e06d0c04",
+    "confirmation-008": "88f76141edef2a3c8ea15eb9280cd4e953b30c272833d38b5366f2366254ce99",
+    "confirmation-009": "ba759a41568d59f8eb027f34b7c110ac4d04d4cfe03500273720573f552c6793",
+    "confirmation-010": "853c1aa6784a9806553af731c9d2eebdf08faa70012f7d1d2567781a951aeaf9",
+    "confirmation-011": "0c56d94abc0a05e4b7708edc0c3525dbb6914451a83145be0d78869456801ec8",
+    "confirmation-012": "a63663f4c1946330a1a4990d033e6be3270b61497f3b8052460a80b65e48c097",
+    "confirmation-013": "452588f5340086d325517f8988a16dfd3d0412ba00fdb2ee00a3ad75ad0cb3e4",
+    "confirmation-014": "4b771db1ef753d5cf8872dce4a21c45a88987b539ce863d35ee0bd522d0929db",
+    "confirmation-015": "0f5e9c72d70eaef3c62b9f40644b85d48097f1c9ff1e05b47a4504676bf384af",
+    "confirmation-016": "6e984b1553adeb8b89b395fd679053393e7277a29f38b8c19a9306b0c825f5c0",
+    "confirmation-017": "eb0d447f87c570664524c8b06ec13160eb64ba496a9936182de91c6e1b5de33b",
+    "confirmation-018": "5c9ccd301b4139a5f044606d9f0981bdf332dd57f501073e34f740d00c34190e",
+    "confirmation-019": "e99ff7774d5e548123f1f80aa32df750b637284845573f95047cc81633f00618",
+    "confirmation-020": "3ec3291d85671c138e7c61c60348b18a8b5efe376fc4a6f76da75d2c1af05d56",
+    "confirmation-021": "2a3efcf7c31c00da1839d2cf686d9348ffffc14bc1a9ac64457370f8e0bc4614",
+    "confirmation-022": "402380463e0f5ac9c4640e1824d640e1f27b8255b56820576266daa41abe5fc5",
+    "confirmation-023": "3f9a872bcf43dec57703215ce862f90c51864aa023b445722e9210d24185fc01",
+    "development-000": "769e3209d6d14a6bbd029b2c278983bae10d826a18b56d3625439b608429783c",
+    "development-001": "21547901562a45b58f3918981cbdaf1e9ff276f9f7ac32a426d31c4179ee8b48",
+    "development-002": "8b3dbba53d9c1262abbcb705244e2de2a34b41369758eb4071c2d42bb49f4a09",
+    "development-003": "901f36fe965f63832bc28aff0d46f45cadef86e78b48b4459ef874692a658835",
+    "source": "8f8e04fd8415f0379aff209d3cd1c18d8151168cac487bfe2a4509a2aa2eb011"
+  },
+  "joint_eligible_in_scan": 539,
+  "model_token_ledger_sha256": {
+    "ministral": "52cb8822ce4bde44cbb542dacfe0059d56d96423f2ebba95425a08a88a276e06",
+    "olmo": "efdb6731ff7699c5dd27a0e3723498602d64c0f0f4b1bdbf8b182fd9343fb442"
+  },
+  "protocol_seal_sha256": "6af86b428caea177266596e61869f95e1780f5b074255dba5cf24df44a9b9afd",
+  "protocol_sha256": "13bbbcbd1c46f782efe11e4c55b0c63d6445c365ae72d76d49c2dcd79288cb92",
+  "public_assignment_sha256": "0231d4b4bef80eaec96657bac42c7ae4ad6d0fbfe329cdcd99d593a2ffaf0676",
+  "public_token_count_sha256": "4951dd9a705292ac3e255585464866e638136386854eb43867862b0016efc270",
+  "request_count_per_model_including_standby": 1124,
+  "request_counts_per_model_including_standby": {
+    "adaptation": 140,
+    "calibration": 24,
+    "pilot_test": 896,
+    "train": 64
+  },
+  "scan_count": 600,
+  "selected_through_disposition": {
+    "ministral": 52,
+    "olmo": 7
+  },
+  "selected_through_english_rank": 459,
+  "source_training_mask_counts": {
+    "128": 11,
+    "256": 12,
+    "512": 11,
+    "1024": 30
+  }
+}
